@@ -1,30 +1,46 @@
-/* high-level */
+/*      high-level     */
 body {
   display: flex;
   flex-direction: column;
 }
 
-/* header */
+/*      header     */
 
 header {
   /* for testing only */
-  background-color: black;
+  background-color: white;
   height: 15vh;
   display: flex;
+}
 
+.left-nav-container {
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-choice {
+  display: flex;
+  height: 50%;
+  margin-left: 3%;
+}
+
+.right-nav-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
 }
 
 
-
-/* main area */
+/*       main area       */
 main {
   /* for testing only */
   background-color: grey;
-  height: 85vh;
+  height: 105vh;
 
 }
 
-h2 {
+h3 {
   height: 15%;
   font-size: 3em;
   margin-top: auto;
@@ -43,7 +59,7 @@ h2 {
 
 
 
-/* cards */
+/*      cards       */
 .card {
   /* for testing only */
   background-color: lightskyblue;

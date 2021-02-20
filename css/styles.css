@@ -1,0 +1,50 @@
+/* high-level */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+
+header {
+  /* for testing only */
+  background-color: black;
+  height: 15vh;
+  display: flex;
+
+}
+
+
+
+/* main area */
+main {
+  /* for testing only */
+  background-color: grey;
+  height: 85vh;
+
+}
+
+h2 {
+  height: 15%;
+  font-size: 3em;
+  margin-top: auto;
+}
+
+.card-container {
+  /* for testing only */
+  background-color: lightgreen;
+  height: 80%;
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+
+
+/* cards */
+.card {
+  /* for testing only */
+  background-color: lightskyblue;
+}

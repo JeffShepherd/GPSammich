@@ -8,10 +8,10 @@ GPSammich is a HTML/CSS-only Mod2 solo challenge in the [Turing School of Softwa
 
 
 ## Original Comp
-![screenshot](./assets/originalcomp.gif)
+![screenshot](./assets/originalcomp.png)
 
 ## GPSammich Re-creation of Comp
-![screenshot](./assets/gpsammich.gif)
+![screenshot](./assets/gpsammich.png)
 
 
 ## Setup

@@ -47,24 +47,28 @@ header {
 
 .user-container {
   display: flex;
+  justify-content: flex-end;
+  height: 30%;
+  width: 50%;
 }
 
 .icon-user {
   /* for testing only */
-  height: 50px;
+  height: 70%;
   /* for testing only */
-  width: 50px;
+  width: 20%;
+  margin: auto;
 }
 
 .user {
-  padding-top: 10%;
+  margin: auto;
 }
 
 .logo {
   /* for testing only */
-  width: 200px;
+  width: 50%;
   /* for testing only */
-  height: 100px;
+  height: 70%;
 }
 
 
@@ -145,7 +149,6 @@ h3 {
 .sandwich-name,
 .location {
   font-size: 1.5em;
-  ;
 }
 
 

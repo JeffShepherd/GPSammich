@@ -12,31 +12,33 @@ header {
   display: flex;
 }
 
+/* left side of nav */
 .left-nav-container {
   width: 70%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .nav-choice-container {
   display: flex;
   height: 50%;
   margin-left: 2%;
-  margin-bottom: 2%
+  margin-top: 3%;
 }
 
 .icon {
-  width: 40%;
-  height: 70%;
-  padding-top: 12%;
+  width: 4rem;
+  height: 50%;
+  margin-top: auto;
+  margin-right: -5%;
 }
 
 .nav-link {
-  font-size: 1.4em;
-  padding-top: 18%;
-  margin-left: -10%;
+  font-size: 1.2rem;
+  margin-top: auto;
 }
 
+/* right side of nav */
 .right-nav-container {
   width: 30%;
   display: flex;
@@ -47,30 +49,26 @@ header {
 
 .user-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   height: 30%;
   width: 50%;
 }
 
 .icon-user {
-  /* for testing only */
-  height: 70%;
-  /* for testing only */
+  height: 60%;
   width: 20%;
-  margin: auto;
+  margin-top: 3%;
 }
 
 .user {
-  margin: auto;
+  padding-top: 5%;
+
 }
 
 .logo {
-  /* for testing only */
   width: 50%;
-  /* for testing only */
   height: 70%;
 }
-
 
 
 /*       main area       */

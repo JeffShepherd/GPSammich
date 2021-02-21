@@ -31,12 +31,14 @@ header {
   width: 4rem;
   height: 50%;
   margin-top: auto;
-  margin-right: -5%;
+  margin-right: -10%;
 }
 
 .nav-link {
   font-size: 1.2rem;
   margin-top: auto;
+  width: 100%;
+  text-align: center;
 }
 
 /* right side of nav */
@@ -175,8 +177,8 @@ h3 {
 }
 
 /*    media queries      */
-
-@media screen and (max-width: 800px) {
+/* tablet view */
+@media screen and (max-width: 850px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -188,9 +190,24 @@ h3 {
     position: absolute;
     width: 45%;
   }
+
+  .right-nav-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 1%;
+  }
+
+  .left-nav-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width: 420px) {
+/* mobile view */
+@media screen and (max-width: 570px) {
   .card-container {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 6px;

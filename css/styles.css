@@ -100,13 +100,58 @@ h3 {
 /*      cards       */
 .card {
   /* for testing only */
-  background-color: lightskyblue;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+/* card top */
+.card-top {
+  height: 40%;
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.overlay-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 20%;
+}
+
+.card-icon {
+  height: 20%;
+  width: 20%;
 }
 
 
 
 
 
+/* card bottom */
+.card-bottom {
+  height: 69%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.sandwich-name,
+.location {
+  font-size: 1.5em;
+  ;
+}
+
+
+.rank-number {
+  font-size: 2em;
+}
 
 /*    media queries      */
 

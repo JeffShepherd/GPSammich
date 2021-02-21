@@ -2,11 +2,11 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Oxygen';
 }
 
 /*      header     */
 header {
-  /* for testing only */
   background-color: white;
   height: 15vh;
   display: flex;
@@ -75,20 +75,21 @@ header {
 main {
   /* for testing only */
   background-color: grey;
-  height: 85%;
 }
 
 h3 {
   height: 15%;
-  font-size: 3em;
-  padding-top: 4%;
-  padding-left: 2%;
+  font-size: 2.5em;
+  /* padding-top: 4%; */
+  /* margin: auto; */
+  padding: 2% 0 2% 2.3%;
 }
 
 .card-container {
-  height: 100vh;
+  height: 85%;
   width: 95%;
-  margin: auto;
+  margin: 0 auto;
+  margin-bottom: 2%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
@@ -100,7 +101,6 @@ h3 {
   display: flex;
   flex-direction: column;
   min-height: 450px;
-  /* justify-content: space-evenly; */
 }
 
 /* card top */
@@ -133,7 +133,6 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   padding: 6%;
-  font-family: 'Oxygen';
 }
 
 .sandwich-name {

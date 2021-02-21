@@ -7,10 +7,10 @@ body {
 
 /*      header     */
 header {
-  background-color: white;
   height: 15vh;
   min-height: 125px;
   display: flex;
+  background-color: white;
 }
 
 /* left side of nav */
@@ -21,8 +21,8 @@ header {
 }
 
 .nav-choice-container {
-  display: flex;
   height: 50%;
+  display: flex;
   margin-left: 2%;
   margin-top: 3%;
 }
@@ -35,10 +35,10 @@ header {
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  margin-top: auto;
   width: 100%;
+  margin-top: auto;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 /* right side of nav */
@@ -51,10 +51,10 @@ header {
 }
 
 .user-container {
-  display: flex;
-  justify-content: center;
   height: 30%;
   width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .icon-user {
@@ -78,11 +78,11 @@ main {
 }
 
 h3 {
-  color: white;
   height: 15%;
+  padding: 2% 0 2% 2.3%;
   font-size: 2em;
   font-weight: 700;
-  padding: 2% 0 2% 2.3%;
+  color: white;
 }
 
 .card-container {
@@ -97,12 +97,12 @@ h3 {
 
 /*       cards       */
 .card {
-  background-color: white;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
-  min-height: 450px;
   border: 1px solid;
   border-radius: 5px;
+  background-color: white;
 }
 
 /* card top */
@@ -116,10 +116,10 @@ h3 {
 }
 
 .overlay-container {
+  width: 22%;
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 22%;
 }
 
 .rating {
@@ -157,8 +157,8 @@ h3 {
 }
 
 .tag-container {
-  background-color: rgba(211, 211, 211, 0.3);
   padding: 3%;
+  background-color: rgba(211, 211, 211, 0.3);
 }
 
 .tag-start {
@@ -167,8 +167,8 @@ h3 {
 
 .rank-number {
   font-size: 2.7em;
-  color: #B90E0A;
   font-weight: 700;
+  color: #B90E0A;
 }
 
 /*    media queries      */
@@ -180,10 +180,10 @@ h3 {
   }
 
   .overlay-container {
+    width: 45%;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    width: 45%;
   }
 
   .right-nav-container {
@@ -209,10 +209,10 @@ h3 {
   }
 
   .overlay-container {
+    width: 92%;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    width: 92%;
   }
 
   .nav-link {
@@ -236,7 +236,7 @@ h3 {
   }
 
   .icon {
-    width: 5rem;
+    width: 5em;
     height: 60%;
     margin-top: auto;
     margin-right: -5%;

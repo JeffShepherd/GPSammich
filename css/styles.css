@@ -142,7 +142,7 @@ h3 {
 .sandwich-name,
 .location {
   font-size: 1.8em;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .restaurant-name {
@@ -161,7 +161,7 @@ h3 {
 .rank-number {
   font-size: 2.7em;
   color: #B90E0A;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 /*    media queries      */

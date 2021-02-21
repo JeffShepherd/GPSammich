@@ -75,8 +75,7 @@ header {
 main {
   /* for testing only */
   background-color: grey;
-  height: 105vh;
-
+  height: 85%;
 }
 
 h3 {
@@ -89,15 +88,13 @@ h3 {
 .card-container {
   /* for testing only */
   background-color: lightgreen;
-  height: 80%;
+  height: 100vh;
   width: 95%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
 }
-
-
 
 /*      cards       */
 .card {
@@ -132,26 +129,39 @@ h3 {
 }
 
 
-
-
-
 /* card bottom */
 .card-bottom {
   height: 69%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5%;
+  padding: 6%;
+  font-family: 'Oxygen';
 }
 
 .sandwich-name,
 .location {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: 400;
 }
 
+.restaurant-name {
+  color: grey;
+}
+
+.tag-container {
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 3%;
+}
+
+.tag-start {
+  font-size: 1.1em;
+}
 
 .rank-number {
-  font-size: 2em;
+  font-size: 2.7em;
+  color: #B90E0A;
+  font-weight: 400;
 }
 
 /*    media queries      */

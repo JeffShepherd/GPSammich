@@ -1,4 +1,4 @@
-/*      high-level     */
+/*      entire page    */
 body {
   display: flex;
   flex-direction: column;
@@ -65,7 +65,6 @@ header {
 
 .user {
   padding-top: 5%;
-
 }
 
 .logo {
@@ -73,11 +72,8 @@ header {
   height: 70%;
 }
 
-
 /*       main area       */
 main {
-  /* for testing only */
-  /* background-color: grey; */
   background-image: url('../assets/wood.jpg');
 }
 
@@ -99,7 +95,7 @@ h3 {
   grid-gap: 15px;
 }
 
-/*      cards       */
+/*       cards       */
 .card {
   background-color: white;
   display: flex;
@@ -136,7 +132,6 @@ h3 {
   height: 15%;
   width: 15%;
 }
-
 
 /* card bottom */
 .card-bottom {
